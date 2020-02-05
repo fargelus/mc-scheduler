@@ -1,4 +1,5 @@
-=form_for :user do
+%h3.mb-4.text-center Регистрация
+=form_for :user, routes.users_path do
   - div class: 'form-group' do
     - label :email
     - email_field :email, class: 'form-control'

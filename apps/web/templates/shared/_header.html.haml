@@ -1,2 +1,7 @@
 .header
-  =link_to 'Регистрация', routes.new_user_path, class: 'header__link'
+  =link_to 'Регистрация', '#user-reg-form',
+   { class: 'header__link',
+     'data-fancybox': '' }
+
+.popup-form.hide#user-reg-form
+  = render partial: 'users/new'

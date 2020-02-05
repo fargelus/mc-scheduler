@@ -5,7 +5,8 @@
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
     %title Мастер-классы в Москве
     = favicon
-    = stylesheet 'application'
+    = stylesheet 'application', 'jquery.fancybox.min.css'
+    = javascript 'jquery.min', 'jquery.fancybox.min'
   %body
     = render partial: 'shared/header'
     .container
