@@ -1,0 +1,7 @@
+@mixin over {
+  &:hover,
+  &:active,
+  &:focus {
+    @content
+  }
+}

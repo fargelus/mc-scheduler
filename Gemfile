@@ -6,6 +6,7 @@ gem 'haml'
 gem 'hanami', '~> 1.3'
 gem 'hanami-model', '~> 1.3'
 gem 'rake'
+gem 'sass'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'pg', '~> 0.20'

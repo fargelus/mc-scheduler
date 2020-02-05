@@ -1,0 +1,12 @@
+=form_for :user do
+  - div class: 'form-group' do
+    - label :email
+    - email_field :email, class: 'form-control'
+  - div class: 'form-group' do
+    - label 'Пароль'
+    - password_field :password, class: 'form-control'
+  - div class: 'form-group' do
+    - label 'Повторите пароль'
+    - password_field :password_confirmation, class: 'form-control'
+  - div class: 'form-group' do
+    - submit 'Зарегистрироваться', class: 'btn btn-primary'

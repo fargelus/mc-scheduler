@@ -1,0 +1,20 @@
+.header {
+  align-items: center;
+  background-color: $abyss;
+  color: $snow;
+  display: flex;
+  min-height: 65px;
+  padding: 0 30px;
+
+  &__link {
+    color: inherit;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: underline;
+
+    @include over {
+      color: $amaranth;
+      text-decoration: none;
+    }
+  }
+}

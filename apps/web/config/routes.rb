@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
-# apps/web/config/routes.rb
 root to: 'home#index'
+resources :users, except: %i[index show]
+get '/users/new', to: 'users#new'
